@@ -1,0 +1,13 @@
+CREATE DATABASE gelaDogsDB;
+use gelaDogsDB;
+
+CREATE TABLE usuarios (
+    id INT(11) AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL UNIQUE,
+    data_nascimento DATE NOT NULL,
+    genero ENUM('masculino', 'feminino', 'outros') NOT NULL,
+    biografia TEXT NOT NULL
+);
+
+select * from usuarios;

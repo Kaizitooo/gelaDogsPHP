@@ -77,6 +77,8 @@ nav button:hover {
             <li><a href="index.php?"></a>Placeholder</li>
             <li><a href="index.php?"></a>Placeholder</li>
         </ul>
-        <button>Puts</button>
+        <a href="cadastro.php">
+            <button>Puts</button>
+        </a>
 
     </nav>
