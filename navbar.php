@@ -6,7 +6,7 @@ nav {
     top: 0; /* Posiciona no topo */
     left: 0; /* Garante que esteja alinhada à esquerda */
     width: 100%; /* Faz a nav ocupar toda a largura da página */
-    background-color: #211951;
+    background-color: #3d0066;
     z-index: 1000; /* Garante que a nav fique sobre outros elementos */
     padding: 10px 0; /* Adiciona algum padding em cima e embaixo */
     display: flex; /* Usa Flexbox para o layout */

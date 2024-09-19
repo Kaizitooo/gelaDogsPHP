@@ -50,7 +50,7 @@ textarea:focus {
 }
 
 button {
-    background-color: #211951;
+    background-color: #3d0066;
     color: #ffffff;
     padding: 10px;
     border: none;
@@ -79,10 +79,10 @@ button:hover {
     <h1>Cadastro</h1>
     <form action="processar_cadastro.php" method="POST">
         <label for="nome">Nome Completo:</label>
-        <input type="text" id="nome" name="nome" required>
+        <input type="text" id="nome" name="nome" placeholder="Seu Nome" required>
         
         <label for="email">E-mail:</label>
-        <input type="text" id="email" name="email" required>
+        <input type="text" id="email" name="email" placeholder="seunome@mail.com" required>
         
         <label for="data_nascimento">Data de Nascimento:</label>
         <input type="date" id="data_nascimento" name="data_nascimento" required>
@@ -95,7 +95,7 @@ button:hover {
         </select>
         
         <label for="biografia">Biografia:</label>
-        <textarea id="biografia" name="biografia" required></textarea>
+        <textarea id="biografia" name="biografia" placeholder="Aqui você pode colocar coisas como seu fursona e coisa e tal..." required></textarea>
         
         <button type="submit">Cadastrar</button>
     </form>
